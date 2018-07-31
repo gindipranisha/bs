@@ -1,0 +1,305 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Complete Bootstrap 4 Website</title>
+	<link rel="stylesheet" type="text/css" href="bootstrapwebpage.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+</head>
+<body>
+             <!-- Navbar -->
+   
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+  <a class="navbar-brand" href="#"><img src="images/mylogo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Connect</a>
+      </li>   
+    </ul>
+  </div>
+</nav>
+
+     <!-- image slider    -->
+
+     <div id="slides" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="image" src="images/slide1.jpg">
+       <div class="carousel-caption">
+    <h1 class="display">Enjoy your vacation with us</h1>
+    <h3>Discover the place you have never been before</h3>
+    <br>
+    	<button type="button" class="btn btn-primary btn-lg">Explore the best</button>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="image" src="images/slide2.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="image" src="images/slide4.jpg">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+         <!-- Jumbotron 
+
+   <div class="container-fluid">
+   	 <div class="row jumbotron">
+   	 	<p>Travelling is not something you are good at. It's something you do like breathing. So take every chance you get in life because some things only happen once. And travel before you run out of the time. It's always good to get a healthy dose of inspiration for your travel dreams.</p>
+   	 <div class="">
+   	 	<a href="#"><button class="btn btn-outline-secondary">Learn more</button></a>
+   	 </div>
+
+   </div>  
+</div>-->
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+  <p class="lead">Travelling is not something you are good at. It's something you do like breathing. So take every chance you get in life because some things only happen once. And travel before you run out of the time.</p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+  <a class="btn btn-outline-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+</div>
+</div>
+ <!-- Welcome Section -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		 <div class="col-12">
+		 	<h1 class="display-4">Welcome to travel world</h1>
+		 </div>
+		 <hr>
+		 <div class="col-12">
+		 	<p class="lead">“Perhaps one of the best things about travelling to a new place is trying new food and drink when you’re there,” says Cynthia. “Eater is a site that reports on everything from the latest trends in ingredients (and where to try them) to which chefs are opening new restaurants and where. Eater’s fantastic and exhaustive airport dining guides even aid you in deciding what to eat when you’re in between places.”</p>
+		 </div>
+	</div>
+</div>
+    <!-- Three Column Section -->
+<div class="container-fluid padding">
+	<div class="row bg padding">
+		<div class=" style col-xs-12 col-sm-6 col-md-4">
+			
+			<h3 class="text">Amazing Places</h3>
+			<br>
+			<p>The world is full of diverse destinations that are waiting to be explored. That's why U.S. News used a methodology that takes into account expert and editor analysis and reader votes to determine which destinations qualify for a spot on the list of the World's Best Places to Visit.</p>
+			<br>
+			<a class="btn btn-secondary btn-md" href="#" type="button">Explore</a>
+		</div>
+		<div class=" style col-xs-12 col-sm-6 col-md-4">
+			
+			<h3 class="text">How to Travel</h3>
+			<br>
+			<p>The world is full of diverse destinations that are waiting to be explored. That's why U.S. News used a methodology that takes into account expert and editor analysis and reader votes to determine which destinations qualify for a spot on the list of the World's Best Places to Visit.</p>
+			<br>
+			<a class="btn btn-secondary btn-md" href="#" type="button">Travel Ways</a>
+		</div>
+		<div class="style col-xs-12 col-sm-6 col-md-4">
+			
+			<h3 class="text">Tips for travelling</h3>
+			<br>
+			<p>The world is full of diverse destinations that are waiting to be explored.  That's why U.S. News used a methodology that takes into account expert and editor analysis and reader votes to determine which destinations qualify for a spot on the list of the World's Best Places to Visit.</p>
+			<br>
+			<a class="btn btn-secondary btn-md" href="#" type="button">Tips To Consider</a>
+	    </div>
+
+	<hr class="my-4">
+</div>
+</div>
+    
+        <!-- Two column section -->
+
+  <div class="container-fluid padding
+  ">
+    <div class="row padding">
+    	<div class="col-lg-6">
+    		<h2>Why to travel</h2>
+    		<br>
+    		<p>HUMANS LOVE to travel. Mentally or physically, they escape to other places. They crave adventure. They seek the unknown. They want to see new places, learn new things, enjoy new experiences and then return home to the familiar, the predictable, the secure, before taking off again on their travels.This departure-return behaviour has its origins, perhaps, in the early exploratory behaviour of the child. </p>
+    		<p>Getting away from home gives you the opportunity to reflect on your life. You have the needed time and space to let your mind wander and take stock. Traveling is one of the best ways to learn more about yourself.Every day traveling brings a new set of issues and opportunities. The way you handle those also gives you insight into who you are.</p>
+    		<br>
+    		<a class="btn btn-outline-primary btn-md">Reasons</a>
+    	</div>
+    	<div class="col-lg-6">
+    		<img class="whyto" src="images/whyto.jpg">
+    	</div>
+    </div>
+  	
+  </div>
+              <!--fixed background 
+
+     <div class="my-4">
+     	<div class="fixed-wrap">
+     		<div id="fixed">
+     			
+     		</div>
+     	</div>
+     </div>    
+
+          <button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
+     <div id="emoji" class="collapse">
+     	<div class="container-fluid padding">
+     		<div class="row text-center">
+     			<div class="col-sm-6 col-md-3">
+     				
+     			</div>
+     		</div>
+     	</div>
+     	
+     </div>-->
+
+    
+     <div class="container-fluid padding">
+       <div class="row welcome text-center">
+       	<div class="col-12">
+       	   <h1 class="display-4 ">Check out the Guides</h1>
+       </div>     
+       <hr>	
+   </div>
+     </div>
+
+     <!-- Cards  -->
+     <div class="container-fluid padding">
+     	<div  class="row padding">
+     		<div class="col-md-4">
+     		<div class="card" style="width: 18rem;">
+             <img class="card-img-top" src="images/guide.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Travel Guides</h5>
+                     <p class="card-text">These travel guides aim to give you the best and most up to date information on the major travel destinations around the world. Here you will find budget tips, money saving advice, tips on places to stay, things to see and do, and where to eat. It doesn’t matter what type of vacation you are going on – cruise, backpacking trip, island getaway, two week holiday, round the world trip, or a family vacation. These destination guides will give you all the information you need for your trip so you can travel better, longer, cheaper.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+            </div>
+             </div>
+             <div class="col-md-4">
+             <div class="card" style="width: 18rem;">
+             <img class="card-img-top" src="images/guide2.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Travel Guides</h5>
+                     <p class="card-text">These travel guides aim to give you the best and most up to date information on the major travel destinations around the world. Here you will find budget tips, money saving advice, tips on places to stay, things to see and do, and where to eat. It doesn’t matter what type of vacation you are going on – cruise, backpacking trip, island getaway, two week holiday, round the world trip, or a family vacation. These destination guides will give you all the information you need for your trip so you can travel better, longer, cheaper.The best option is to take the guidance from the known people.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+             </div>
+         </div>
+             <div class="col-md-4">
+             <div class="card" style="width: 18rem;">
+             <img class="card-img-top" src="images/fodors.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Travel Guides</h5>
+                     <p class="card-text">These travel guides aim to give you the best and most up to date information on the major travel destinations around the world. Here you will find budget tips, money saving advice, tips on places to stay, things to see and do, and where to eat. It doesn’t matter what type of vacation you are going on – cruise, backpacking trip, island getaway, two week holiday, round the world trip, or a family vacation. These destination guides will give you all the information you need for your trip so you can travel better, longer, cheaper.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+             </div>
+     	</div>
+     </div>
+           <!-- Another section -->
+
+      <div class="container-fluid padding">
+    <div class="row padding">
+    	<div class="col-lg-6">
+    		<h2>Travel philosphy</h2>
+    		<p>We all have different reasons for traveling, but most of us don’t think too deeply into them. We say we want to travel for adventure, to learn, to explore, but are those the real reasons we continue to travel? Or are those the ‘acceptable’ answers society has determined are reasonable reasons to travel. Society sets norms for us – house, kids, money. Travel is a luxury we add on top, it is the bonus we get for achieving the norms. But choosing to travel – taking a year off, living abroad as an expat, or adopting a nomadic lifestyle – Isn’t acceptable according to societal norms. </p>
+    		<p> It’s only ok if we want to come home – to first travel, and then conform to the societal norms. As if travel is a crazy period in life that we just need to express and then continue with the expected.</p>
+    		<br>
+    		<a class="btn btn-primary btn-md">Learn More</a>
+    	</div>
+    	<div class="col-lg-6">
+    		<img class="whyto" src="images/philosophy.jpg">
+    	</div>
+    	<br>
+    	<hr class="my-4">
+    </div>
+  </div>
+
+        <!-- connect -->
+
+   <div class="container-fluid padding">
+   	<div class="row text-center padding">
+   		<div class="col-12">
+   			<h2>Connect</h2>
+   		</div>
+   		<div class="col-12 social padding">
+   		 <a href="https://www.facebook.com/profile.php?id=100009677420219" target="_blank" class="fa fa-facebook"></a>
+   		  <a href="https://twitter.com/GindiReddy" target="_blank" class="fa fa-twitter"></a>
+   		  <a href="#" class="fa fa-google-plus"></a>
+   		  <a href="https://www.instagram.com/pranishareddy10/?hl=en" class="fa fa-instagram" target="_blank"></a>
+   	      <a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a>
+   		</div>
+   		
+   	</div>
+   </div>
+
+        <!-- footer -->
+        <footer>
+ <div class="container-fluid padding">
+ 	<div class="row text-center">
+ 		<div class="col-md-4">
+ 			<h5>Travel World</h5>
+ 			<hr class="light">
+ 			<p>555-555-5656</p>
+ 			<p>travelagency@gmail.com</p>
+ 			<p>100 Street Name</p>
+ 			<p>City, state, 513684</p>
+ 		</div>
+ 		<div class="col-md-4">
+ 			<hr class="light">
+ 			<h5>Our hours</h5>
+ 			<hr class="light">
+ 			<p>Monday:9am - 5pm</p>
+ 			<p>Saturday: 10am - 4pm</p>
+ 			<p>Sunday: Closed</p>
+ 		</div>
+ 		<div class="col-md-4">
+ 			<hr class="light">
+ 			<h5>Useful links:</h5>
+ 			<hr class="light">
+ 			<p>About Us</p>
+ 			<p>Contact us</p>
+ 			<p>Our Blog</p>
+ 			<p>Terms of Services</p>
+ 			<p>Privacy Policy</p>
+ 		</div>
+ 		<div class="col-12">
+ 			<hr class="light-100">
+ 			<p>&copy; Travel World</p>
+ 		</div>
+ 	</div>
+ </div>
+</footer>
+
+</body>
+</html>
